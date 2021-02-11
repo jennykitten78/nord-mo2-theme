@@ -1,0 +1,1 @@
+# nord-mo2-theme
