@@ -1,8 +1,8 @@
 /*!*************************************
-  VS15 Dark
+  Nord
 ****************************************
-  Author: chintsu_kun
-  Version: 2.0.2
+  Author: jennykitten78
+  Version: 0.0.5
   Licence: GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.en.html)
   Url: https://github.com/nikolay-borzov/modorganizer-themes
 ****************************************
@@ -103,10 +103,10 @@ LinkLabel {
 
 /* Left Pane & File Trees #QTreeView, #QListView*/
 QTreeView::branch:closed:has-children {
-  image: url(./vs15/branch-closed.png); }
+  image: url(./nord/branch-closed.png); }
 
 QTreeView::branch:open:has-children {
-  image: url(./vs15/branch-open.png); }
+  image: url(./nord/branch-open.png); }
 
 /*QListView::item:hover { }
 QListView::item:selected { }*/
@@ -185,7 +185,7 @@ QComboBox {
       background-color: red;
     } */ }
   QComboBox::down-arrow {
-    image: url(./vs15/combobox-down.png); }
+    image: url(./nord/combobox-down.png); }
   QComboBox QAbstractItemView {
     background-color: #2E3440;
     selection-background-color: #5E81AC;
@@ -217,7 +217,7 @@ QToolButton {
     background-color: #81A1C1; }
 
 QToolButton::menu-indicator {
-  image: url(./vs15/combobox-down.png);
+  image: url(./nord/combobox-down.png);
   subcontrol-origin: padding;
   subcontrol-position: center right;
   padding-top: 10%;
@@ -272,7 +272,7 @@ QAbstractSpinBox::down-button:disabled {
   border-color: #4C566A; }
 
 QPushButton::menu-indicator {
-  image: url(./vs15/combobox-down.png);
+  image: url(./nord/combobox-down.png);
   subcontrol-origin: padding;
   subcontrol-position: center right;
   padding-right: 5%; }
@@ -334,12 +334,12 @@ QRadioButton::indicator {
 QGroupBox::indicator:checked,
 QTreeView::indicator:checked,
 QCheckBox::indicator:checked {
-  image: url(./vs15/checkbox-check.png); }
+  image: url(./nord/checkbox-check.png); }
 
 QGroupBox::indicator:disabled,
 QTreeView::indicator:checked:disabled,
 QCheckBox::indicator:checked:disabled {
-  image: url(./vs15/checkbox-check-disabled.png); }
+  image: url(./nord/checkbox-check-disabled.png); }
 
 /* Check boxes special */
 QTreeView#modList::indicator {
@@ -371,13 +371,13 @@ QAbstractSpinBox::up-button {
   subcontrol-position: top right; }
 
 QAbstractSpinBox::up-arrow {
-  image: url(./vs15/spinner-up.png); }
+  image: url(./nord/spinner-up.png); }
 
 QAbstractSpinBox::down-button {
   subcontrol-position: bottom right; }
 
 QAbstractSpinBox::down-arrow {
-  image: url(./vs15/spinner-down.png); }
+  image: url(./nord/spinner-down.png); }
 
 /* Sliders #QSlider */
 QSlider::groove:horizontal {
@@ -472,40 +472,40 @@ QScrollBar::sub-page {
   background: transparent; }
 
 QScrollBar::up-arrow:vertical {
-  image: url(./vs15/scrollbar-up.png); }
+  image: url(./nord/scrollbar-up.png); }
 
 QScrollBar::up-arrow:vertical:hover {
-  image: url(./vs15/scrollbar-up-hover.png); }
+  image: url(./nord/scrollbar-up-hover.png); }
 
 QScrollBar::up-arrow:vertical:disabled {
-  image: url(./vs15/scrollbar-up-disabled.png); }
+  image: url(./nord/scrollbar-up-disabled.png); }
 
 QScrollBar::right-arrow:horizontal {
-  image: url(./vs15/scrollbar-right.png); }
+  image: url(./nord/scrollbar-right.png); }
 
 QScrollBar::right-arrow:horizontal:hover {
-  image: url(./vs15/scrollbar-right-hover.png); }
+  image: url(./nord/scrollbar-right-hover.png); }
 
 QScrollBar::right-arrow:horizontal:disabled {
-  image: url(./vs15/scrollbar-right-disabled.png); }
+  image: url(./nord/scrollbar-right-disabled.png); }
 
 QScrollBar::down-arrow:vertical {
-  image: url(./vs15/scrollbar-down.png); }
+  image: url(./nord/scrollbar-down.png); }
 
 QScrollBar::down-arrow:vertical:hover {
-  image: url(./vs15/scrollbar-down-hover.png); }
+  image: url(./nord/scrollbar-down-hover.png); }
 
 QScrollBar::down-arrow:vertical:disabled {
-  image: url(./vs15/scrollbar-down-disabled.png); }
+  image: url(./nord/scrollbar-down-disabled.png); }
 
 QScrollBar::left-arrow:horizontal {
-  image: url(./vs15/scrollbar-left.png); }
+  image: url(./nord/scrollbar-left.png); }
 
 QScrollBar::left-arrow:horizontal:hover {
-  image: url(./vs15/scrollbar-left-hover.png); }
+  image: url(./nord/scrollbar-left-hover.png); }
 
 QScrollBar::left-arrow:horizontal:disabled {
-  image: url(./vs15/scrollbar-left-disabled.png); }
+  image: url(./nord/scrollbar-left-disabled.png); }
 
 /* Scroll Area #QScrollArea*/
 QScrollArea {
@@ -544,14 +544,14 @@ QHeaderView::section:last {
   border-right: 0; }
 
 QHeaderView::up-arrow {
-  image: url(./vs15/sort-asc.png);
+  image: url(./nord/sort-asc.png);
   margin-bottom: -37px; }
 
 DownloadListWidget QHeaderView::up-arrow {
   margin-bottom: -47px; }
 
 QHeaderView::down-arrow {
-  image: url(./vs15/sort-desc.png);
+  image: url(./nord/sort-desc.png);
   margin-bottom: 0; }
 
 /* Context menus, toolbar drop-downs #QMenu  */
@@ -581,7 +581,7 @@ QMenu::icon {
   margin: 1px; }
 
 QMenu::right-arrow {
-  image: url(./vs15/sub-menu-arrow.png);
+  image: url(./nord/sub-menu-arrow.png);
   subcontrol-origin: padding;
   subcontrol-position: center right;
   padding-right: .5em; }
@@ -684,16 +684,16 @@ QTabBar::scroller {
   background-color: red; }
 
 QTabBar QToolButton::right-arrow {
-  image: url(./vs15/scrollbar-right.png); }
+  image: url(./nord/scrollbar-right.png); }
 
 QTabBar QToolButton::right-arrow:hover {
-  image: url(./vs15/scrollbar-right-hover.png); }
+  image: url(./nord/scrollbar-right-hover.png); }
 
 QTabBar QToolButton::left-arrow {
-  image: url(./vs15/scrollbar-left.png); }
+  image: url(./nord/scrollbar-left.png); }
 
 QTabBar QToolButton::left-arrow:hover {
-  image: url(./vs15/scrollbar-left-hover.png); }
+  image: url(./nord/scrollbar-left-hover.png); }
 
 /* Special styles */
 QWidget#tabImages QPushButton {
@@ -730,10 +730,10 @@ QTreeWidget#categoriesList::item {
   padding: .35em 10px; }
 
 QTreeWidget#categoriesList::item:has-children {
-  background-image: url(./vs15/branch-closed.png); }
+  background-image: url(./nord/branch-closed.png); }
 
 QTreeWidget#categoriesList::item:has-children:open {
-  background-image: url(./vs15/branch-open.png); }
+  background-image: url(./nord/branch-open.png); }
 
 QDialog#QueryOverwriteDialog QPushButton {
   margin-left: .5em; }
