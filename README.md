@@ -6,4 +6,4 @@ I loved the Nord theme and used it for my desktop on all my operating systems an
 
 ![Screenshot](/screenshot/Screenshot.png)
 
-There is currently a very alpha release available for testing, you can [find it here](https://github.com/jennykitten78/nord-mo2-theme/releases/tag/0.0.1-alpha)
+There is currently a very alpha release available for testing, you can [find it here](https://github.com/jennykitten78/nord-mo2-theme/releases/tag/0.0.1-alpha).
