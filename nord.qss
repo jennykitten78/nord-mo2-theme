@@ -35,7 +35,7 @@ QWidget {
 *:disabled,
 QListView::item:disabled,
 *::item:selected:disabled {
-  color: #D8DEE9; }
+  color: #5E81AC; }
 
 /* line heights */
 /* QTreeView#fileTree::item - currently have problem with size column vertical
@@ -111,7 +111,7 @@ QTreeView::branch:open:has-children {
 /*QListView::item:hover { }
 QListView::item:selected { }*/
 QListView::item {
-  color: #4C566A; }
+  color: #D8DEE9; }
 
 /* Text areas and text fields #QTextEdit, #QLineEdit, #QWebView */
 QTextEdit,
@@ -245,7 +245,7 @@ QLCDNumber {
 
 /* Buttons #QPushButton */
 QPushButton {
-  background-color: #3B4252;
+  background-color: #434C5E;
   border-color: #4C566A;
   min-height: 18px;
   padding: 2px 5px;
@@ -299,13 +299,13 @@ QSlider::handle:horizontal:focus:!pressed,
 QSlider::handle:vertical:focus:!pressed,
 QDialog QPushButton:focus,
 QDialog QPushButton:checked {
-  background-color: #DDDDDD;
-  border-color: #3399FF; }
+  background-color: #3B4252;
+  border-color: #4C566A; }
 
 QDialog QPushButton:disabled,
 QSlider::handle:horizontal:disabled,
 QSlider::handle:vertical:disabled {
-  background-color: #333337;
+  background-color: #2E3440;
   border-color: #3F3F46; }
 
 QDialog QPushButton {
@@ -318,7 +318,7 @@ QGroupBox::indicator,
 QTreeView::indicator,
 QCheckBox::indicator,
 QRadioButton::indicator {
-  background-color: #4C566A;
+  background-color: #2E3440;
   border-color: #81A1C1;
   width: 13px;
   height: 13px;
@@ -328,8 +328,8 @@ QRadioButton::indicator {
   QTreeView::indicator:hover,
   QCheckBox::indicator:hover,
   QRadioButton::indicator:hover {
-    background-color: #81A1C1;
-    border-color: #88C0D0; }
+    background-color: #5E81AC;
+    border-color: #81A1C1; }
 
 QGroupBox::indicator:checked,
 QTreeView::indicator:checked,
@@ -573,7 +573,7 @@ QMenu::item:disabled {
   background-color: transparent; }
 
 QMenu::separator {
-  background-color: #333337;
+  background-color: #3B4252;
   height: 1px;
   margin: 1px 0; }
 
@@ -599,7 +599,7 @@ QMenu QRadioButton {
 /* Tool tips #QToolTip, #SaveGameInfoWidget */
 QToolTip,
 SaveGameInfoWidget {
-  background-color: #434C5E;
+  background-color: #5E81AC;
   border-color: #4C566A;
   color: #ECEFF4;
   border-style: solid;
@@ -647,15 +647,15 @@ QTabBar::tab {
   border: none; }
 
 QTabBar::tab:hover {
-  background-color: #8FBCBB; }
+  background-color: #5E81AC; }
 
 QTabBar::tab:selected,
 QTabBar::tab:selected:hover {
-  background-color: #B48EAD; }
+  background-color: #81A1C1; }
 
 QTabBar::tab:disabled {
   background-color: transparent;
-  color: #D8DEE9; }
+  color: #5E81AC; }
 
 QTabBar::tab:selected:disabled {
   background-color: #3B4252; }
@@ -681,7 +681,7 @@ QTabBar QToolButton:pressed:hover {
 /*QTabBar::tear { }*/
 QTabBar::scroller {
   width: 23px;
-  background-color: red; }
+  background-color: #BF616A; }
 
 QTabBar QToolButton::right-arrow {
   image: url(./nord/scrollbar-right.png); }
@@ -703,23 +703,23 @@ QWidget#tabImages QPushButton {
 
 /* like dialog QPushButton*/
 QWidget#tabESPs QToolButton {
-  color: #000000;
-  background-color: #DDDDDD;
-  border-color: #707070;
+  color: #ECEFF4;
+  background-color: #3B4252;
+  border-color: #4C566A;
   border-style: solid;
   border-width: 1px; }
 
 QWidget#tabESPs QToolButton:hover {
   background-color: #BEE6FD;
-  border-color: #3C7FB1; }
+  border-color: #4C566A; }
 
 QWidget#tabESPs QToolButton:focus {
-  background-color: #DDDDDD;
-  border-color: #3399FF; }
+  background-color: #3B4252;
+  border-color: #4C566A; }
 
 QWidget#tabESPs QToolButton:disabled {
-  background-color: #333337;
-  border-color: #3F3F46; }
+  background-color: #3B4252;
+  border-color: #4C566A; }
 
 QTreeWidget#categoriesList {
   /*min-width: 225px;*/ }
