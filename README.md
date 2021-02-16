@@ -4,6 +4,6 @@ I loved the Nord theme and used it for my desktop on all my operating systems an
 
 **_If you have any suggestions or ideas, please submit them as an issue. Thank you!_**
 
-<img src="./screenshot/Screenshot.png" alt="drawing" width="600"/>
+<img src="./screenshot/Screenshot.png" alt="drawing" width="700"/>
 
 There is currently a very alpha release available for testing, you can [find it here](https://github.com/jennykitten78/nord-mo2-theme/releases/tag/0.0.1-alpha).
