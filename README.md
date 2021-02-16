@@ -6,6 +6,6 @@ I loved the [Nord theme](https://www.nordtheme.com/) and used it for my desktop 
 
 **_If you have any suggestions or ideas, please submit them as an issue. Thank you!_**
 
-<img src="./screenshot/Screenshot3.png" alt="drawing" width="700"/>
+<img src="./screenshot/Screenshot3.png" alt="screenshot" width="700"/>
 
 Find the [releases here](https://github.com/jennykitten78/nord-mo2-theme/releases).
