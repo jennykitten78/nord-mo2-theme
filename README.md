@@ -10,4 +10,4 @@ I loved the [Nord theme](https://www.nordtheme.com/) and used it for my desktop 
 
 <img src="./screenshot/Screenshot3.png" alt="screenshot" width="700"/>
 
-Find the [releases here](https://github.com/jennykitten78/nord-mo2-theme/releases).
+Find the [releases here](https://github.com/jennykitten78/nord-mo2-theme/releases) or on NexusMods [here](https://www.nexusmods.com/skyrimspecialedition/mods/89254).
